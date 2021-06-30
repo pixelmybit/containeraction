@@ -1,5 +1,5 @@
-name 'container action'
-description 'Learning GitHub actions'
+name: 'container action'
+description: 'Learning GitHub actions'
 author: 'Karina Hallberg'
 inputs:
   myInput:
