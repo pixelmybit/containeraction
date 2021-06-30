@@ -1,0 +1,14 @@
+name 'container action'
+description 'Learning GitHub actions'
+author: 'Karina Hallberg'
+inputs:
+  myInput:
+    description: 'Hello INGKA World'
+    required: true
+    default: 'Awesome CIA'
+outputs:
+  myOutput:
+    description: 'total memory'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
